@@ -1,6 +1,9 @@
+import java.util.Scanner;
 
-public class Main {
+public class Main{
+    //psvm
     public static void main(String[] args) {
-        System.out.println("Hello and welcome!");
+        //sout
+        System.out.println("Hello");
     }
 }
