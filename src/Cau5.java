@@ -11,11 +11,12 @@ public class Cau5 {
     }
 
     public static void main(String[] args) {
-        Scanner nc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Nhập n: ");
-        int n = nc.nextInt();
+        int n = sc.nextInt();
         int res = GiaoThua(n);
 
         System.out.print("Giao thừa của " + n + " là: " + res);
+        sc.close();
     }
 }

@@ -7,5 +7,6 @@ public class Bai1 {
 
         String name = sn.nextLine();
         System.out.print("Xin chào " + name);
+        sn.close();
     }
 }

@@ -10,9 +10,9 @@ public class Cau2{
     }
 
     public static void main(String[] args){
-        Scanner nc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Nhập 1 số nguyên: ");
-        int n = nc.nextInt();
+        int n = sc.nextInt();
         if (prime(n)){
             System.out.print(n + " là số nguyên tố");
         }
@@ -20,5 +20,6 @@ public class Cau2{
         {
             System.out.print(n + " là không phải số nguyên tố");
         }
+        sc.close();
     }
 }

@@ -10,5 +10,6 @@ public class Bai2 {
         int b = sn.nextInt();
 
         System.out.printf("Tông 2 số nguyên là: %d\n", a + b);
+        sn.close();
     }
 }

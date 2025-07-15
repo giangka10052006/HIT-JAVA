@@ -12,5 +12,6 @@ public class test{
         System.out.printf("Tên: %s\n",name);
         System.out.printf("Tuổi: %d\n", tuoi);
         System.out.printf("GPA : %f\n", GPA);
+        cn.close();
     }
 }

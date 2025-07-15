@@ -11,5 +11,6 @@ public class Bai3 {
         else {
             System.out.println("Lẻ");
         }
+        sn.close();
     }
 }

@@ -28,5 +28,6 @@ public class Cau3{
 
         System.out.print("Ước chung lớn nhất là: " + uoc);
         System.out.print("Bội chung nhỏ nhất là: " + boi);
+        nc.close();
     }
 }

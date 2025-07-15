@@ -24,5 +24,6 @@ public class Cau6 {
         }
         System.out.println("Phần tử lớn nhất của mảng là: " + ma);
         System.out.println("Phần tử lớn nhất của mảng ở vị trí là: a[" + viTri + "]");
+        nc.close();
     }
 }

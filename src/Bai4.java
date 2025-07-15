@@ -6,14 +6,15 @@ public class Bai4 {
     }
 
     public static void main(String[] args) {
-        Scanner nc = new Scanner(System.in);
+        Scanner sn = new Scanner(System.in);
         System.out.print("Nhập chiều dài: ");
-        int a = nc.nextInt();
+        int a = sn.nextInt();
 
         System.out.print("Nhập chiều rộng ");
-        int b = nc.nextInt();
+        int b = sn.nextInt();
 
         int res = dienTich(a,b);
         System.out.println("Diện tích hình chữ nhật là: " + res);
+        sn.close();
     }
 }
